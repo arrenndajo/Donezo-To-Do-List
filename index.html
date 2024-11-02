@@ -28,7 +28,30 @@
             <button class="links" id="addTask" onclick="window.location.href = 'https://jayparmar.web.app';"><img src="images/website.png"></button>
         </div>
     </div>
-
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDeralkF6c6UKtOwKimRGSJWaWqqeL3y88",
+          authDomain: "donezo-e0ee9.firebaseapp.com",
+          projectId: "donezo-e0ee9",
+          storageBucket: "donezo-e0ee9.firebasestorage.app",
+          messagingSenderId: "477581120523",
+          appId: "1:477581120523:web:2b0748a83b84c30499230e",
+          measurementId: "G-K812Z7WYYF"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+      
 </body>
 <script src="script.js"></script>
 </html>
