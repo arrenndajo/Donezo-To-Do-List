@@ -32,6 +32,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2);
 }
 
 .to-do-app h2 {
@@ -65,7 +66,7 @@ input {
     font-size: 16px;
 }
 
-button {
+.addTask {
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -124,3 +125,22 @@ ul li span:hover {
     background: whitesmoke;
 }
 
+.links {
+    border: none;
+    outline: none;
+    padding: 5px 5px;
+    background-color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: black;
+}
+
+.links:hover {
+    background-color: lightgray;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
